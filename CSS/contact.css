@@ -296,6 +296,15 @@ h2 {
   padding: 2%;
 }
 
+.details a {
+  text-decoration: none;
+  color: white;
+}
+
+.details a:hover {
+  opacity: 0.7;
+}
+
 .content-width {
   overflow: auto;
 }
