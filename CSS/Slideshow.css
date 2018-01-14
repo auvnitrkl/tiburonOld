@@ -22,10 +22,9 @@
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 45%;
   width: auto;
   padding: 2%;
-  margin-top: -2.4%;
   color: white;
   font-weight: bold;
   font-size: 2vw;
@@ -46,12 +45,13 @@
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 1.5vw;
+  font-size: 20px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  width: 100%;
+  left: 42%;
   text-align: center;
+  background-color: rgba(0,0,0,0.5);
 }
 
 .numbertext {
@@ -146,6 +146,12 @@
   .dot-mar {
     margin-left: 62%; 
   }
+  .text {
+	left: 40%;
+  }
+  .prev, .next {
+    top: 48%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -177,5 +183,41 @@
   }
   .dot-mar {
     margin-left: 46%; 
+  }
+  .text {
+	left: 42%;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .text {
+	left: 40%;
+  }
+  .prev, .next {
+    top: 55%;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .prev, .next {
+    top: 58%;
+  }
+}  
+
+@media screen and (max-width: 650px){
+  .text {
+	left: 38%;
+  }
+  .prev, .next {
+    top: 62%;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .text {
+	left: 36%;
+  }
+  .prev, .next {
+    top: 66%;
   }
 }  
