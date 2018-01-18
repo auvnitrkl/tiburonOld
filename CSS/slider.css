@@ -10,7 +10,7 @@
 100% { left: -300%; }
 }
 
-body { margin: 0; } 
+body { margin: 0; overflow-x: hidden; } 
 
 #slider { overflow: hidden; margin-top: 5.8%; z-index: -1; }
 #slider figure img { width: 20%; float: left; z-index: -1; }
@@ -64,25 +64,25 @@ body { margin: 0; }
 @keyframes anim-1 {
 	0%, 6.25% { left: -100%; opacity: 0; }
   6.25%,18.75% { left: 25%; opacity: 1; }
-  25%, 100% { left: 110%; opacity: 0; }
+  25%, 100% { left: 100%; opacity: 0; }
 }
 
 @keyframes anim-2 {
 	0%, 25% { left: -100%; opacity: 0; }
   31.25%, 43.75% { left: 25%; opacity: 1; }
-  50%, 100% { left: 110%; opacity: 0; }
+  50%, 100% { left: 100%; opacity: 0; }
 }
 
 @keyframes anim-3 {
 	0%, 50% { left: -100%; opacity: 0; }
   56.25%, 68.75% { left: 25%; opacity: 1; }
-  75%, 100% { left: 110%; opacity: 0; }
+  75%, 100% { left: 100%; opacity: 0; }
 }
 
 @keyframes anim-4 {
 	0%, 75% { left: -100%; opacity: 0; }
   81.25%, 93.75% { left: 25%; opacity: 1; }
-  100% { left: 110%; opacity: 0; }
+  100% { left: 100%; opacity: 0; }
 }
 
 @media screen and (max-width: 2000px){
@@ -336,6 +336,26 @@ body { margin: 0; }
 @media screen and (max-width: 500px){
   #slider {
     margin-top: 11.6%;
+  }
+  .item-2{
+	animation-name: anim-2;
+	margin-left: 32%;
+  }
+  .item-4{
+	animation-name: anim-4;
+	margin-left: 32%;
+  }
+}
+
+@media screen and (max-width: 450px){
+  #slider {
+    margin-top: 11.6%;
+  }
+  .item-1, 
+  .item-2, 
+  .item-3, 
+  .item-4 {
+	margin-top:-12.5%;
   }
   .item-2{
 	animation-name: anim-2;
