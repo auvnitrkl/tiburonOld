@@ -7,6 +7,10 @@ body {
   font-size: 18px;
 }
 
+html, body, .site-wrapper {
+overflow-x: hidden;
+}
+
 #navbar1 {
   z-index: 5;
   width: 100%;

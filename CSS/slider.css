@@ -10,10 +10,6 @@
 100% { left: -300%; }
 }
 
-html, body {
-  overflow-x:hidden 
-} 
-
 body { margin: 0;} 
 
 #slider { overflow: hidden; margin-top: 5.8%; z-index: -1; }
