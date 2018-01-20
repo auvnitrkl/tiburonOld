@@ -10,7 +10,11 @@
 100% { left: -300%; }
 }
 
-body { margin: 0; overflow-x: hidden; } 
+html, body {
+  overflow-x:hidden 
+} 
+
+body { margin: 0;} 
 
 #slider { overflow: hidden; margin-top: 5.8%; z-index: -1; }
 #slider figure img { width: 20%; float: left; z-index: -1; }
