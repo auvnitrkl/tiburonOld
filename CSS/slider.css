@@ -295,7 +295,7 @@ body { margin: 0;}
   }
   .item-4{
 	animation-name: anim-4;
-	margin-left: 40%;
+	margin-left: 36%;
   }
 }
 
@@ -309,7 +309,7 @@ body { margin: 0;}
   }
   .item-4{
 	animation-name: anim-4;
-	margin-left: 38%;
+	margin-left: 34%;
   }
 }
 
@@ -329,7 +329,7 @@ body { margin: 0;}
   }
   .item-4{
 	animation-name: anim-4;
-	margin-left: 36%;
+	margin-left: 32%;
   }
 }
 
@@ -343,7 +343,7 @@ body { margin: 0;}
   }
   .item-4{
 	animation-name: anim-4;
-	margin-left: 32%;
+	margin-left: 28%;
   }
 }
 
@@ -363,6 +363,23 @@ body { margin: 0;}
   }
   .item-4{
 	animation-name: anim-4;
-	margin-left: 34%;
+	margin-left: 30%;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .item-1, 
+  .item-2, 
+  .item-3, 
+  .item-4 {
+	margin-top:-14.5%;
+  }
+  .item-2{
+	animation-name: anim-2;
+	margin-left: 32%;
+  }
+  .item-4{
+	animation-name: anim-4;
+	margin-left: 28%;
   }
 }
