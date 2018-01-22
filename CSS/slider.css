@@ -383,3 +383,23 @@ body { margin: 0;}
 	margin-left: 28%;
   }
 }
+
+@media screen and (max-width: 350px){
+  #slider {
+    margin-top: 12.1%;
+  }
+  .item-1, 
+  .item-2, 
+  .item-3, 
+  .item-4 {
+	margin-top:-14.5%;
+  }
+  .item-2{
+	animation-name: anim-2;
+	margin-left: 32%;
+  }
+  .item-4{
+	animation-name: anim-4;
+	margin-left: 28%;
+  }
+}
