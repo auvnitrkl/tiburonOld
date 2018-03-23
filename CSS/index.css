@@ -187,26 +187,34 @@ to{top:100%;}
 .hleft{margin-top:-100px;font-size:44px;margin-left:105px;}
 .nodis .himage{margin-top:0.3%;}
 .nodis .hleft{margin-top:-100px;}
-.dis .hleft{margin-top:-373.5px;}
+.dis .hleft{margin-top:-379.5px;}
 .dis .himage{margin-top:0.3%;}
 #navbar{display:none;}
 #navSmall{display:block;}
 .container-bar{margin-top:-40px;}
 .head{padding-top:0%;text-align:center;}
 }
-@media screen and (max-width:775px){.dis .hleft{margin-top:-364.5px;}
+@media screen and (max-width:768px){.dis .hleft{margin-top:-373.5px;}
 }
-@media screen and (max-width:750px){.dis .hleft{margin-top:-359.5px;}
+@media screen and (max-width:740px){.dis .hleft{margin-top:-368.5px;}
+}
+@media screen and (max-width:736px){.dis .hleft{margin-top:-367px;}
+}
+@media screen and (max-width:732px){.dis .hleft{margin-top:-366px;}
+}
+@media screen and (max-width:720px){.dis .hleft{margin-top:-364.5px;}
 }
 @media screen and (max-width:700px){.dis .hleft{margin-top:-352.5px;}
 }
 @media screen and (max-width:675px){.dis .hleft{margin-top:-349.5px;}
 }
-@media screen and (max-width:650px){.dis .hleft{margin-top:-340.5px;}
+@media screen and (max-width:667px){.dis .hleft{margin-top:-354px;}
 }
-@media screen and (max-width:600px){.dis .hleft{margin-top:-334.5px;}
+@media screen and (max-width:640px){.dis .hleft{margin-top:-349px;}
 }
-@media screen and (max-width:575px){.dis .hleft{margin-top:-330px;}
+@media screen and (max-width:600px){.dis .hleft{margin-top:-341px;}
+}
+@media screen and (max-width:568px){.dis .hleft{margin-top:-335px;}
 }
 @media screen and (max-width:550px){.dis .hleft{margin-top:-326px;}
 }
@@ -216,9 +224,19 @@ to{top:100%;}
 }
 @media screen and (max-width:500px){.dis .hleft{margin-top:-312.5px;}
 }
-@media screen and (max-width:450px){.dis .hleft{margin-top:-318.09px;}
+@media screen and (max-width:480px){.dis .hleft{margin-top:-318.09px;}
 }
-@media screen and (max-width:400px){.dis .hleft{margin-top:-315.75px;}
+@media screen and (max-width:414px){.dis .hleft{margin-top:-305px;}
 }
-@media screen and (max-width:350px){.dis .hleft{margin-top:-312.40px;}
+@media screen and (max-width:412px){.dis .hleft{margin-top:-305px;}
+}
+@media screen and (max-width:384px){.dis .hleft{margin-top:-300px;}
+}
+@media screen and (max-width:375px){.dis .hleft{margin-top:-298px;}
+}
+@media screen and (max-width:360px){.dis .hleft{margin-top:-295px;}
+}
+@media screen and (max-width:320px){.dis .hleft{margin-top:-272px;}
+.nodis .hleft{margin-top:-85px;}
+.hleft{margin-top:-85px;font-size:36px;}
 }
