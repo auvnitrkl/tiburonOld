@@ -141,7 +141,7 @@ body{margin:0;}
 .item-2{animation-name:anim-2;margin-left:28%;}
 .item-4{animation-name:anim-4;margin-left:20%;}
 }
-@media screen and (max-width:350px){#slider{margin-top:12.6%;}
+@media screen and (max-width:350px){#slider{margin-top:13%;}
 .item-1,
 .item-2,
 .item-3,
