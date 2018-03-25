@@ -110,7 +110,7 @@ to{top:100%;}
 .fa-facebook{color:white;}
 .fa-linkedin{color:white;}
 #fb-root{display:none;}
-@media screen and (max-width:2560px){.left{margin-left:5%;max-width:40%;font-size:22px;}
+@media screen and (min-width:2560px){.left{margin-left:5%;max-width:40%;font-size:22px;}
 .right{margin-left:53%;margin-right:5%;padding-bottom:4%;font-size:22px;}
 .font{font-size:24px;}
 .content{padding-left:5%;padding-right:7%;}
