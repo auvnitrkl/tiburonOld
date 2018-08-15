@@ -866,11 +866,21 @@ h1 {
 }
 
 .head1{
-  font-size:4.5vw;
+  font-size:55px;
 }
 
 .hover h2:hover{
   opacity:0.7;
   cursor:pointer;
+}
+
+@media (max-width:550px){
+.head1{
+  font-size:45px;
+}
+.cont-margin{
+  margin-left:13px;
+  margin-right:13px;
+}
 }
   
