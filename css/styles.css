@@ -930,7 +930,14 @@ h1 {
   display: none;
 }
 
+.project-pad-top{
+  padding-top:18%;
+}
+
 @media (max-width:992px){
+  .project-pad-top{
+    padding-top:0;
+  }
   .features-first{
     display:none;
   }
