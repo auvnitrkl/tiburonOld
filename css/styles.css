@@ -934,6 +934,12 @@ h1 {
   padding-top:18%;
 }
 
+.project-height{
+  height:100%;
+}
+
+
+
 @media (max-width:992px){
   .project-pad-top{
     padding-top:0;
@@ -952,6 +958,10 @@ h1 {
 @media (max-width:768px){
 .contact-padding{
   padding-bottom:4%;
+}
+.project-height{
+  height:auto;
+  width:100%;
 }
 }
 @media (max-width:550px){
