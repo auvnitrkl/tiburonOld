@@ -38,11 +38,8 @@
   padding: 130px 0px 100px;
 }
 
-@media (min-width: 992px)
-{.my_class {
-    height: 420px;
-}
-}
+
+
 
 
 .project-wrap{
