@@ -1869,3 +1869,80 @@ h1, h2, h3, h4 {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
+
+  /* ///////////////////////////////////////////////////INDUCTIONS///////////////////////////////////////////// */
+   .light {
+     padding: 30px;
+     text-align: center;
+   }
+
+   .feature-item {
+     padding: 50px;
+   }
+
+   .icon {
+     text-align: center;
+   }
+
+   .icon i {
+     background-color: #e7e5e4;
+     color: blue;
+     padding: 50px;
+     font-size: 120px;
+     border-radius: 50%;
+     border: 2px solid #303e49;
+     /* $shadow-color: #444;
+	 */
+     text-shadow: -1px 1.1px rgba(52, 68, 80, 0.145), -2px 2.2px rgba(57, 73, 87, 0.14), -3px 3.3px rgba(61, 79, 93, 0.135), -4px 4.4px rgba(66, 85, 100, 0.13), -5px 5.5px rgba(70, 91, 107, 0.125), -6px 6.6px rgba(75, 96, 114, 0.12), -7px 7.7px rgba(79, 102, 120, 0.115), -8px 8.8px rgba(84, 108, 127, 0.11), -9px 9.9px rgba(88, 114, 134, 0.105), -10px 11px rgba(93, 119, 141, 0.1), -11px 12.1px rgba(97, 125, 147, 0.095), -12px 13.2px rgba(102, 131, 154, 0.09), -13px 14.3px rgba(108, 136, 159, 0.085), -14px 15.4px rgba(115, 142, 163, 0.08), -15px 16.5px rgba(122, 147, 167, 0.075), -16px 17.6px rgba(129, 153, 172, 0.07), -17px 18.7px rgba(135, 158, 176, 0.065), -18px 19.8px rgba(142, 164, 181, 0.06), -19px 20.9px rgba(149, 169, 185, 0.055), -20px 22px rgba(156, 175, 190, 0.05), -21px 23.1px rgba(162, 180, 194, 0.045), -22px 24.2px rgba(169, 186, 199, 0.04), -23px 25.3px rgba(176, 191, 203, 0.035), -24px 26.4px rgba(183, 197, 208, 0.03), -25px 27.5px rgba(190, 202, 212, 0.025), -26px 28.6px rgba(196, 208, 216, 0.02), -27px 29.7px rgba(203, 213, 221, 0.015), -28px 30.8px rgba(210, 219, 225, 0.01), -29px 31.9px rgba(217, 224, 230, 0.005), -30px 33px rgba(223, 229, 234, 0);
+   }
+
+   .icon-titles {
+     font-family: "Iceberg", sans-serif;
+     margin-top: 10px;
+     font-size: 24px;
+     font-weight: bold;
+     text-transform: uppercase;
+     color: #6a747a;
+   }
+
+   .icon-titles::after {
+     content: " ";
+     position: relative;
+     display: table;
+     text-align: center;
+     left: 35%;
+     width: 30%;
+     height: 3px;
+     margin-top: 3px;
+     color: #6a747a;
+     background-color: #303e49;
+   }
+
+   .icon-text {
+     padding: 0px 25px;
+     margin-top: 15px;
+     font-size: 1rem;
+     color: #6a747a;
+     margin-bottom: 20px;
+   }
+
+   .feature-itens>* {
+     -webkit-transform: scale(0);
+     -ms-transform: scale(0);
+     -o-transform: scale(0);
+     transform: scale(0);
+   }
+
+   .feature-itens>.animated {
+     -webkit-transform: scale(1);
+     -ms-transform: scale(1);
+     -o-transform: scale(1);
+     transform: scale(1);
+     -webkit-transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+     -o-transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+     transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+   }
+.icon-whatsapp{
+  font-size:40px;
+  padding: 5px;
+}
